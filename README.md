@@ -6,6 +6,7 @@ Création d'un jeu du pendu dans une interface web.
 ## Mise en place
 
 1. Créez un fork du dépôt avec le bouton `fork` :
+
 ![Fork](fork.png)
 
 2. Copiez l'URL de votre dépôt GitHub après le fork
