@@ -26,13 +26,6 @@ git clone https://github.com/[[ votre nom utilisateur ]]/sonate_pendu
 cd sonate_pendu
 ```
 
-5. Créez et activez un [Virtual Env](https://docs.python.org/3/library/venv.html) :
-
-```shell
-python3 -m venv .venv
-. .venv/bin/activate
-```
-
 A ce stade, vous devez voir en début de prompt du terminal : `(.venv)`
 
 ## Installation des bibliothèques
