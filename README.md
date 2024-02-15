@@ -26,8 +26,6 @@ git clone https://github.com/[[ votre nom utilisateur ]]/sonate_pendu
 cd sonate_pendu
 ```
 
-A ce stade, vous devez voir en début de prompt du terminal : `(.venv)`
-
 ## Installation des bibliothèques
 
 On peut employer un fichier (par convention [requirements.txt](./requirements.txt)) pour référencer les bibliothèques  et leurs versions nécessaires au projet.
