@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h1>Good game {{player_name}}</h1>
+    <p>Le mot à deviner est {{hidden_word}}</p>
+    <p>Le nombre de vie restante est de {{lives}}</p>
+    <form method="post" action="/play">
+        <!--Cela permet de faire un bouton par caractère et de nous retourner une valeur dans le code.-->
+        {% for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' %} 
+          <button type="submit" name="letter" value="{{ letter }}">{{ letter }}</button>
+        {% endfor %}
+    </form>
+
+{% endblock %}
