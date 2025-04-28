@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block title %}Désolé... | Jeu du pendu{% endblock %}
+
+{% block content %}
+    <h1>Vous avez perdu {{player_name}}</h1>
+    <p>Le mot était {{word}}</p>
+    <p>Souhaitez-vous réessayer ?</p>
+    <form method="post" action="/play">
+        <button type="submit">Réessayer</button>
+    </form>
+
+{% endblock %}
